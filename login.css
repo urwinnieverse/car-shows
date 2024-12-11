@@ -1,0 +1,145 @@
+body {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    background-color: #EFEFEF;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h1{
+    display: flex;
+    position: fixed ;
+    top: 140px;
+    left:70px;
+    font-size: xx-large;
+
+}
+
+span{
+    display: flex;
+    margin-right: 10rem;
+    position: fixed;
+    top:18px;
+    left: 100px;
+}
+img{
+    position: fixed;
+}
+#logo{
+    left: 50px;
+    top: 7px;
+    width: 100px;
+    height: auto;
+}
+#logo:hover{
+cursor: pointer;
+}
+#user{
+    top:25px;
+    left: 1150px;
+    width: 40px;
+    height: auto;
+}
+#user:hover{
+
+cursor: pointer;    
+}
+
+p{
+     font-size: large;
+     color: black;
+     margin-left: 13rem;
+  }
+  P:hover{
+      text-decoration: underline;
+      cursor: pointer;
+  }
+
+#main{
+
+    color: white;
+    background-color: black;
+    border: 5px black solid;
+    border-radius: 5px;
+
+}
+a{
+    text-decoration: none;
+}
+
+#form{
+
+    border-right: 2px solid #919191;
+    height: 400px;
+    position: fixed;
+    right:50%;
+    margin-right: -3px;
+    top: 170px;
+    align-items: center;
+
+}
+
+label{
+
+    white-space: nowrap;
+    display: flex;
+    margin-left:75px;
+    font-size: x-large;
+
+
+}
+input[type="tel"]{
+
+    border: 1.5px solid #919191;
+    height: 20px;
+  
+
+}
+ #phone{
+    margin-left:75px;
+    margin-top: 10px;  
+ }
+ #num{
+    margin-left:-140px;
+    margin-top: 100px; 
+    width: 365px;
+ }
+
+ button{
+
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: large;
+    height: 50px;
+    width: 200px;
+    margin-top: 400px;
+    margin-left: -1035px;
+
+}
+button:hover{
+    cursor: pointer;
+}
+
+#loglabel{
+
+font-size:medium;
+
+    margin-top: 400px;
+    margin-left: 20px;
+
+}
+iframe{
+
+
+    width: 480px;
+    height: 264px;
+    margin-top: 100px;
+    margin-left: 183px;
+
+}
+
+
+

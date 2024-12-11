@@ -1,0 +1,166 @@
+body {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    background-color: #EFEFEF;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h1{
+    display: flex;
+    position: fixed ;
+    top: 120px;
+    left:70px;
+    font-size: xx-large;
+
+}
+
+span{
+    display: flex;
+    margin-right: 10rem;
+    position: fixed;
+    top:18px;
+    left: 100px;
+}
+img{
+    position: fixed;
+}
+#logo{
+    left: 50px;
+    top: 7px;
+    width: 100px;
+    height: auto;
+}
+#logo:hover{
+cursor: pointer;
+}
+#user{
+    top:25px;
+    left: 1150px;
+    width: 40px;
+    height: auto;
+}
+#user:hover{
+
+cursor: pointer;    
+}
+
+p{
+     font-size: large;
+     color: black;
+     margin-left: 13rem;
+  }
+  P:hover{
+      text-decoration: underline;
+      cursor: pointer;
+  }
+
+#main{
+
+    color: white;
+    background-color: black;
+    border: 5px black solid;
+    border-radius: 5px;
+
+}
+a{
+    text-decoration: none;
+}
+.rec{
+    display: block;
+    position: fixed;
+    background-color: white;
+    border: 3px lightgray solid;
+    border-radius: 25px;
+    width: 250px;
+    height: 350px ;
+    top: 200px;  
+}
+#rec1{
+
+    left: 50px;
+
+}
+
+#rec2{
+
+    left: 350px;
+
+}
+
+#rec3{
+
+    left: 650px;
+
+}
+
+#rec4{
+
+    left: 950px;
+
+}
+
+.cars{
+
+    width: 200px ;
+    height: auto;
+    margin-left: 25px;
+    margin-top: 20px;
+    }
+
+    
+#car333{
+
+    width: 210px ;
+    height: auto;
+    margin-left: 20px; 
+
+}
+
+ .carinfo{
+    white-space: nowrap;
+        margin-top: 160px;     
+        font-size: 20px;
+        
+ }
+ #carshowd1{
+    margin-left: 20px;
+
+}
+#carshowd1:hover{
+    text-decoration: none;
+
+}
+
+ .carsinfos{
+       overflow: hidden;
+        margin-top: 0px;     
+        font-size: 14px;
+        width: auto;
+        height: auto;
+        margin-left: -20px;
+ }
+ #car1info{
+    margin-left: 0px;
+ }
+
+button{
+
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    height: 30px;
+    width: 200px;
+    margin-top: 35px;
+    margin-left: 25px;         
+
+}
+button:hover{
+    cursor: pointer;
+}
+#c2{
+    margin-top: 17px;  
+}

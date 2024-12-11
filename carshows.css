@@ -1,0 +1,122 @@
+body {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    background-color: #EFEFEF;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h1{
+    display: flex;
+    position: fixed ;
+    top: 130px;
+    left:70px;
+    font-size: xx-large;
+
+}
+
+span{
+    display: flex;
+    margin-right: 10rem;
+    position: fixed;
+    top:18px;
+    left: 100px;
+}
+img{
+    position: fixed;
+}
+#logo{
+    left: 50px;
+    top: 7px;
+    width: 100px;
+    height: auto;
+}
+#logo:hover{
+cursor: pointer;
+}
+#user{
+    top:25px;
+    left: 1150px;
+    width: 40px;
+    height: auto;
+}
+#user:hover{
+
+cursor: pointer;    
+}
+
+p{
+     font-size: large;
+     color: black;
+     margin-left: 13rem;
+  }
+  P:hover{
+      text-decoration: underline;
+      cursor: pointer;
+  }
+
+#main{
+
+    color: white;
+    background-color: black;
+    border: 5px black solid;
+    border-radius: 5px;
+
+}
+a{
+    text-decoration: none;
+}
+
+.rec{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    border: 3px lightgray solid;
+    border-radius: 25px;
+    width: 360px;
+    height: 250px ;
+    top: 230px;  
+}
+#rec1{
+
+    left: 50px;
+
+}
+#rec2{
+    
+    left: 450px;
+
+}
+#rec3{
+
+    left: 850px;
+    
+}
+.carshows{
+
+width: 250px ;
+height: auto;
+margin-left: 60px;
+margin-top: 20px;
+}
+#r{
+    margin-top: 40px;
+}
+.carshowd{
+    margin-top: 170px;
+    
+    font-size: 25px;
+}
+#carshowd1{
+    margin-left: 120px;
+
+}
+#carshowd2{
+    margin-left: 90px;
+}
+#carshowd3{
+    margin-left: 130px; 
+}

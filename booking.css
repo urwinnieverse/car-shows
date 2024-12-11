@@ -1,0 +1,151 @@
+body {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    background-color: #EFEFEF;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h1{
+    display: flex;
+    position: fixed ;
+    top: 120px;
+    left:70px;
+    font-size: xx-large;
+
+}
+
+span{
+    display: flex;
+    margin-right: 10rem;
+    position: fixed;
+    top:18px;
+    left: 100px;
+}
+img{
+    position: fixed;
+}
+#logo{
+    left: 50px;
+    top: 7px;
+    width: 100px;
+    height: auto;
+}
+#logo:hover{
+cursor: pointer;
+}
+#user{
+    top:25px;
+    left: 1150px;
+    width: 40px;
+    height: auto;
+}
+#user:hover{
+
+cursor: pointer;    
+}
+
+p{
+     font-size: large;
+     color: black;
+     margin-left: 13rem;
+  }
+  P:hover{
+      text-decoration: underline;
+      cursor: pointer;
+  }
+
+#main{
+
+    color: white;
+    background-color: black;
+    border: 5px black solid;
+    border-radius: 5px;
+
+}
+a{
+    text-decoration: none;
+}
+
+#form{
+
+    border-right: 2px solid #919191;
+    height: 400px;
+    position: fixed;
+    right:50%;
+    margin-right: -3px;
+    top: 170px;
+
+}
+
+label{
+
+    white-space: nowrap;
+    display: flex;
+    margin-left: 200px;
+    font-size: x-large;
+    margin-top: -60px;
+
+
+}
+input[type="datetime-local"]{
+
+    border: 1.5px solid #919191;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: -180px;
+    width: 200px;
+  
+
+}
+ button{
+
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: large;
+    height: 50px;
+    width: 200px;
+    margin-top: 300px;
+    margin-left: -200px;
+
+}
+button:hover{
+    cursor: pointer;
+}
+input[type="radio"]{
+
+    left: 0px;
+    margin-left: 20px;
+    size: 100px;
+    margin-top: 150px;
+    accent-color: black;
+    width: 20px;
+    height: 20px;
+
+}
+input[type="radio"]:hover{
+    cursor: pointer;
+}
+#r1,#r2{
+    margin-top: 150px;
+    margin-left: 10px;
+    font-size: medium;
+
+}
+#ra1{
+    margin-left: -190px;
+}
+
+iframe{
+
+
+    width: 480px;
+    height: 264px;
+    margin-top: 100px;
+    margin-left: 243px;
+
+}
+
